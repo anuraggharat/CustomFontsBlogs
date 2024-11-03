@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.eot');
+    src: url('fonts/Poppins-Regular.eot') format('embedded-opentype'),
+    url('fonts/Poppins-Regular.woff2') format('woff2'),
+    url('fonts/Poppins-Regular.woff') format('woff'),
+    url('fonts/Poppins-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-ExtraLightItalic.eot');
+    src: url('fonts/Poppins-ExtraLightItalic.eot') format('embedded-opentype'),
+    url('fonts/Poppins-ExtraLightItalic.woff2') format('woff2'),
+    url('fonts/Poppins-ExtraLightItalic.woff') format('woff'),
+    url('fonts/Poppins-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: optional;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-SemiBold.eot');
+    src: url('fonts/Poppins-SemiBold.eot') format('embedded-opentype'),
+    url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+    url('fonts/Poppins-SemiBold.woff') format('woff'),
+    url('fonts/Poppins-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: optional;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif /*Update this line*/
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+section{
+    max-height: 100vh;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}  
+main{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+main div{
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    gap: 10px;
+}
+main div img{
+    width: 80%;
+}
+.hero{
+    justify-content: center;
+    align-items: center;
+}
+main div button{
+    width: auto;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: 600;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
+}
+button{
+    font-weight: 400;
+}
+li{
+    font-weight: 400;
+}
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+.button-primary{
+    background: linear-gradient(91.88deg,#2c57f3 .88%,#a506d8 98.71%);
+    color: white;
+}
+.button-secondary{
+    border: 1px solid black;
+}
+   
